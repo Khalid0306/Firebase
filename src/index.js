@@ -5,13 +5,13 @@ import { getFirestore, collection, getDocs, addDoc, deleteDoc, onSnapshot, doc, 
 console.log('Find it ... the One Piece');
 
 const firebaseConfig = {
-    apiKey: "AIzaSyC1QAN3eH6k9spUOhbsyu9Sg8fcPHthqcg",
-    authDomain: "fir-firststep-1bb6e.firebaseapp.com",
-    projectId: "fir-firststep-1bb6e",
-    storageBucket: "fir-firststep-1bb6e.appspot.com",
-    messagingSenderId: "164259876059",
-    appId: "1:164259876059:web:e96530cc7c47560a11d0fe",
-    measurementId: "G-0PMSRPP8BJ"
+    apiKey: "process.env.apiKey",
+    authDomain: "process.env.authDomain",
+    projectId: "process.env.projectId",
+    storageBucket: "process.env.storageBucket",
+    messagingSenderId: "process.env.messagingSenderId",
+    appId: "process.env.appId",
+    measurementId: "process.env.measurementId"
   };
   
  
